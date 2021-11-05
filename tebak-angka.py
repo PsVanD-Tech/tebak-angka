@@ -6,13 +6,15 @@ from random import choice
 import os
 from os import system
 
-a="1234567890"
-#A Disini Untuk Dijadikan Angka Random
+a = "01234567890"
+b = "01234567890"
+
+all = a + b
+#all Disini Untuk Dijadikan Angka Random
 print("Tebak Nomor")
-print("No Brp Yg Kau Tebak? 0-9 = ")
+print("No Brp Yg Kau Tebak? 0-99 = ")
 input()
-time.sleep(2)
-angkar = ''.join(choice(a))
+angkar = ''.join(choice(all))
 #angkar adalah angka random:v
 print("Jawabannya adalah")
 print(angkar)
