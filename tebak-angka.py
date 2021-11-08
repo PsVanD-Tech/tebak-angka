@@ -6,6 +6,8 @@ from random import choice
 import os
 from os import system
 
+os.system('clear')
+
 a = "01234567890"
 b = "01234567890"
 
